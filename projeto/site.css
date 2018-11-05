@@ -1,25 +1,46 @@
 body {
     background-color: #F2FFFC;
     font-family: "Crimson Text", "Times New Roman", serif;
+    font-size: 120%;
 }
 
 h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-h1 {
-    font-size: 60px;
+main h1 {
     background-color: #851944;
     color: #FFF;
     text-align: center;
 }
 
+main a{
+    color:#851944;
+}
+
 h2 {
     font-size: 40px;
-    font-family: OpenSans, Arial, sans-serif;
+    font-family: Open Sans Condensed, Arial, sans-serif;
 }
 
 p {
     font-family: "Times New Roman", "Baskerville", serif;
     text-align: justify;
+}
+blockquote{
+    background-color: #D9E5E3;
+}
+aside{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+aside a{
+    color: inherit;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: #F2FFFC;
 }
