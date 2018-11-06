@@ -1,0 +1,21 @@
+.figura{
+    border: black 8px solid;
+    background-color: #FAFFFC;
+    padding: 16px;
+}
+
+.legenda{
+    color:black;
+}
+
+.portfolio li{
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.portfolio img {
+    width: 100%;
+}

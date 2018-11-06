@@ -2,19 +2,20 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="site.css">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
     <title>Blog</title>
 </head>
 <body>
-<main>
-    <h1>Blog</h1>
-    <div>
-        <article>
-            <h2>O essencial de design responsivo</h2>
+<main class="conteudo-principal">
+    <h1 class="titulo-principal">Blog</h1>
+    <div class="container">
+        <article class="artigo">
+            <h2 class="subtitulo">O essencial de design responsivo</h2>
             <time datetime="2014-07-01">01 de julho de 2014</time>
             <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para
                 dispositivos
@@ -22,8 +23,8 @@
             <a href="#" class="link-leia-mais">Leia mais</a>
             <footer>Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
         </article>
-        <article>
-            <h2>Por que fazer páginas acessíveis?</h2>
+        <article class="artigo">
+            <h2 class="subtitulo">Por que fazer páginas acessíveis?</h2>
             <time datetime="2014-06-15">15 de junho de 2014</time>
             <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas,
                 inclusive
@@ -32,8 +33,8 @@
             <a href="#" class="link-leia-mais">Leia mais</a>
             <footer>Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
         </article>
-        <article>
-            <h2>JavaScript não obstrusivo</h2>
+        <article class="artigo">
+            <h2 class="subtitulo">JavaScript não obstrusivo</h2>
             <time datetime="2014-05-28">28 de maio de 2014</time>
             <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas.
                 Porém, há
@@ -44,11 +45,11 @@
         </article>
     </div>
 </main>
-<img src="eu.jpg" alt="Foto de João da Silva">
+<img class="minha-foto" src="img/eu.jpg" alt="Foto de João da Silva">
 <aside class="barra-lateral">
-    <h1>João da Silva</h1>
-    <nav>
-        <ul class="barra-navegacao">
+    <h1 class="titulo-principal-barra">João da Silva</h1>
+    <nav class="barra-navegacao">
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="bio.html">Sobre mim</a></li>
@@ -64,11 +65,6 @@
 </aside>
 <footer class="rodape">
     &copy; João da Silva 2014
-    <ul class="icones-sociais social-rodape">
-        <li><a href="http://github.com/joaodasilva" class="github">Github</a></li>
-        <li><a href="http://twitter.com/joaodasilva" class="twitter">Twitter</a></li>
-        <li><a href="http://linkedin.com/joaodasilva" class="linkedin">Linkedin</a></li>
-    </ul>
 </footer>
 </body>
 </html>
