@@ -17,7 +17,7 @@ h1, h2 {
     font-size: 60px;
 }
 
-.titulo-principal ,.titulo-principal-barra{
+.titulo-principal, .titulo-principal-barra {
     text-transform: uppercase;
 }
 
@@ -29,15 +29,17 @@ blockquote, aside, footer {
     padding: 20px;
 }
 
-h2 {
+.subtitulo {
     font-size: 30px;
     font-family: Open Sans Condensed, Arial, sans-serif;
+    clear: both;
 }
 
 p {
     font-family: "Times New Roman", "Baskerville", serif;
     text-align: justify;
-    margin:20px 0;
+    margin: 20px 0;
+
 }
 
 .citacao {
@@ -46,11 +48,25 @@ p {
     width: 250px;
     margin: 20px 40px;
     box-sizing: border-box;
+
+}
+
+.citacao-fiat {
+    float: right;
+}
+
+.citacao-petrobras {
+    float: left;
+}
+
+cite {
+    font-style: italic;
+    float: right;
 }
 
 .container {
     width: 720px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 30px 0;
     line-height: 1.5;
 }
@@ -59,8 +75,16 @@ p {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
+    float: right;
 }
 
+.barra-lateral, .minha-foto {
+    float: right;
+    width: 15%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
 
 aside a {
     color: inherit;
@@ -68,33 +92,34 @@ aside a {
     text-decoration: none;
 }
 
-aside h1{
+aside h1 {
     font-size: 30px;
     margin-bottom: 25px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.rodape{
+.rodape {
     background-color: black;
     color: #F2FFFC;
+    clear: both;
 }
 
-strong{
+strong {
     font-weight: bold;
 }
 
-em{
+em {
     font-style: italic;
 }
 
-.icones-sociais li{
+.icones-sociais li {
     display: inline-block;
 }
 
-.icones-sociais a{
+.icones-sociais a {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -102,8 +127,8 @@ em{
     color: #F2FFFC;
 }
 
-.social-rodape{
-    margin:60px;
+.social-rodape {
+    margin: 60px;
 }
 
 article {
@@ -112,7 +137,7 @@ article {
     margin-bottom: 20px;
 }
 
-.link-leia-mais{
+.link-leia-mais {
     padding: 8px;
     margin: 16px;
     display: block;
@@ -120,16 +145,24 @@ article {
     text-align: center;
     background-color: #E6E7E8;
 }
-.github{
+
+.github {
     background-image: url("github.png");
 }
-.twitter{
+
+.twitter {
     background-image: url("twitter.png");
 }
-.linkedin{
+
+.linkedin {
     background-image: url("linkedin.png");
 }
 
-.barra-navegacao a{
+.barra-navegacao a {
     text-transform: lowercase;
+}
+
+.conteudo-principal {
+    float: left;
+    width: 85%;
 }
