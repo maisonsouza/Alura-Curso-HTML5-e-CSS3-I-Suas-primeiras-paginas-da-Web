@@ -8,7 +8,7 @@ h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-main h1 {
+.titulo-principal {
     background-color: #851944;
     color: #FFF;
     text-align: center;
@@ -36,7 +36,7 @@ p {
     margin:20px 0;
 }
 
-blockquote {
+.citacao {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     width: 250px;
@@ -44,18 +44,19 @@ blockquote {
     box-sizing: border-box;
 }
 
-main div {
+.container {
     width: 720px;
     margin:0 auto;
     padding: 30px 0;
     line-height: 1.5;
 }
 
-aside {
+.barra-lateral {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
 }
+
 
 aside a {
     color: inherit;
@@ -68,15 +69,11 @@ aside h1{
     margin-bottom: 25px;
 }
 
-aside li{
-    display: inline-block;
-}
-
 ul{
     list-style-type: none;
 }
 
-footer {
+.rodape{
     background-color: black;
     color: #F2FFFC;
 }
@@ -87,4 +84,27 @@ strong{
 
 em{
     font-style: italic;
+}
+
+.icones-sociais li{
+    display: inline-block;
+}
+
+.social-rodape{
+    margin:60px;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.link-leia-mais{
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }
